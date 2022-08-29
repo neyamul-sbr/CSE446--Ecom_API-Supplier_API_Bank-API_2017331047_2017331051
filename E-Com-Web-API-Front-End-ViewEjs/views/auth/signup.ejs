@@ -1,0 +1,46 @@
+<%- include('../includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/auth.css">
+</head>
+
+<body>
+   <%- include('../includes/navigation.ejs') %>
+
+    <main>
+        <% if (errorMessage) { %>
+            <div class="user-message user-message--error"><%= errorMessage %></div>
+        <% } %>
+        <form class="login-form" action="/signup" method="POST">
+            <div class="form-control">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="form-control">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+            </div>
+            <div class="form-control">
+                <label for="user_name">Customer's Name</label>
+                <input type="user_name" name="user_name" id="user_name">
+            </div>
+            <div class="form-control">
+                <label for="bank_acc_no">Bank Acc No</label>
+                <input type="bank_acc_no" name="bank_acc_no" id="bank_acc_no">
+            </div>
+            <div class="form-control">
+                <label for="secret">Secret</label>
+                <input type="secret" name="secret" id="secret">
+            </div>
+            <div class="form-control">
+                <label for="balance">Users Balance Deposited at Bank</label>
+                <input type="balance" name="balance" id="balance">
+            </div>
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <button class="btn" type="submit">Signup</button>
+        </form>
+    </main>
+<%- include('../includes/end.ejs') %>
