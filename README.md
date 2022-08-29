@@ -26,6 +26,11 @@ requirement of the CSE446 API project. In addition, These 3 APIs are fully compa
 Application framework for the front end. But that is outside of the project requirement. But for demonstration
 purposes of the font end of the APIs, we developed another View-based application that can show the front end.
 
+## The whole Flow of the project is demonstrated in below chart from 1 to 9 Ascending order
+    
+       <img src="ss2/wholeFlow.PNG"/>
+
+
 # Installing the APIs on your Local Machines:
 - At first Clone or Download the repository. Then Inside the repository follow the instructions:
 - Command Line: Open the command line or terminal
