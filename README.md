@@ -139,7 +139,7 @@ purposes of the font end of the APIs, we developed another View-based applicatio
      <img src="ss2/cart.PNG"/>
      <img src="ss2/orders.PNG"/>
      
-     ## The whole Flow of the project is demonstrated in below chart from 1 to 9 Ascending order
+     ## The whole Order Flow of the project is demonstrated in below chart from 1 to 9 Ascending order
     
        <img src="ss2/wholeFlow.PNG"/>
      
