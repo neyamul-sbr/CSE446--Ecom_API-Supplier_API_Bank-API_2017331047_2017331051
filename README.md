@@ -62,6 +62,7 @@ purposes of the font end of the APIs, we developed another View-based applicatio
    Then this api will start on localhost in 3000 port.
    
  - Supplier/Seller API:
+    
  
     - Go to the Seller API directory. Open terminal in that directory then write the command:
        ```
@@ -73,6 +74,73 @@ purposes of the font end of the APIs, we developed another View-based applicatio
        npm start
        ```
   Then this api will start on localhost in 5050 port.
+  
+  Now We can test the API endpoints with the Postman API:
+  
+  ## API endpoints:
+  
+   - ## E-Commerce API:
+   
+   
+     <img src="ss/signup.PNG"/>
+     <img src="ss/login.PNG"/>
+     <img src="ss/logout.PNG"/>
+     <img src="ss/viewALL.PNG"/>
+     <img src="ss/product_description.PNG"/>
+     <img src="ss/addCart.PNG"/>
+     <img src="ss/deleteCart.PNG"/>
+     <img src="ss/viewCart.PNG"/>
+     <img src="ss/createOrder.PNG"/>
+     <img src="ss/getorders.PNG"/>
+     <img src="ss/getallOrders.PNG"/>
+     
+     
+   - ## Bank API:
+   
+      <img src="ss/add_bank_user.PNG"/>
+      <img src="ss/checkBalance.PNG"/>
+      <img src="ss/transaction_req.PNG"/>
+      <img src="ss/transaction_confirmation.PNG"/>
+      
+      
+   - ## Seller API:
+        
+      <img src="ss/addSupplierProduct.PNG"/>
+      <img src="ss/productDelivaryRequest.PNG"/>
+         
+  
+  
+     ## Just for demo. of a simple UI frontend from the APIs we also developed a EJS template based frontend.
+      Install:
+        Go to the E-Com-Web-API-Front-End-ViewEjs directory. Open terminal in that directory then write the command:
+        
+        
+        ```
+        npm i
+        ```
+
+     To start the App then simply write the command:
+    
+        ```
+         npm start
+        ```
+         
+     ## Then this api will start on localhost in 3001 port.
+   
+     ##Then the functinalites can be demonstrated in the UI:
+     
+     <img src="ss2/signup.PNG"/>
+     <img src="ss2/email_ham.png"/>
+     <img src="ss2/homePage.PNG"/>
+     <img src="ss2/product description.PNG"/>
+     <img src="ss2/cart.PNG"/>
+     <img src="ss2/orders.PNG"/>
+     
+     
+     
+     
+       
+   
  
      
 
