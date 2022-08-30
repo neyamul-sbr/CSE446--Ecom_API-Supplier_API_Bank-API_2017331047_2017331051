@@ -82,7 +82,7 @@ purposes of the font end of the APIs, we developed another View-based applicatio
   
   ## API endpoints:
      
-     ## To Test the API endpoints on API testing Tool like Postman:
+  ## To Test the API endpoints on API testing Tool like Postman:
           -Download Postman from the https://www.postman.com/downloads/
           -Open the postman app. Then log into the app
           -Import the collections of json files given above in the Postman API testing directory
