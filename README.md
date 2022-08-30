@@ -81,6 +81,13 @@ purposes of the font end of the APIs, we developed another View-based applicatio
   Now We can test the API endpoints with the Postman API:
   
   ## API endpoints:
+     
+     ## To Test the API endpoints on API testing Tool like Postman:
+          -Download Postman from the https://www.postman.com/downloads/
+          -Open the postman app. Then log into the app
+          -Import the collections of json files given above in the Postman API testing directory
+          -3 json files are the collections of API endpoints of 3 APIs namely E-commerce API, Bank API, Seller API
+      
   
    - ## E-Commerce API:
    
