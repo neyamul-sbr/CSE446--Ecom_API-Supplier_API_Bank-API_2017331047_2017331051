@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "bee08182-dd75-406d-8d82-95cf76167eaf",
+		"name": "seller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21334079"
+	},
+	"item": [
+		{
+			"name": "Add Supplier Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seller_id\": \"235564dd6745487\",\r\n    \"product_id\": \"534458sds74d567454\",\r\n    \"title\": \"Ball\",\r\n    \"price\":\"30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/add_seller_product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"add_seller_product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Delivery Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transaction_id\":  \"630ba1f4af69de1c5c92f858\",\r\n    \"total\": \"144.5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/product_delivery_request",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"product_delivery_request"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

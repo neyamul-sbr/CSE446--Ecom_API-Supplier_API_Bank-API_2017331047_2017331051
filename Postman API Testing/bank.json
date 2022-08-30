@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "16e52dcc-d24a-4e2c-a1dd-78294e344687",
+		"name": "bank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21334079"
+	},
+	"item": [
+		{
+			"name": "Check Balance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_acc\": \"5865685238655\",\r\n    \"secret\"  : \"7f212cc7451c29aa3a849b99165b57a0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/check_user_balance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"check_user_balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transaction Confirmation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transaction_id\": \"630ba1f4af69de1c5c92f858\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/transaction_confirmation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"transaction_confirmation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transaction Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_acc\" : \"47854841564711\",\r\n    \"seller_acc\" : \"5865685238655\",\r\n    \"amount\": \"200\",\r\n    \"secret\":\"0c784951712467fa347379816b770d51\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/transaction_req",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"transaction_req"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Bank User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"alom@gmail.com\",\r\n    \"name\" : \"Alom Khan CPI\",\r\n    \"user_acc\": \"21545752418745\",\r\n    \"user_sec\":\"owiuejkdfmklsufjzfj\",\r\n    \"balance\": \"6000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/add_bank_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"add_bank_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
